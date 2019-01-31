@@ -30,14 +30,7 @@ html {
 	margin: 0 0 1.5rem;
 }
 
-@media only screen and (min-width: 1024px)
-{
-	.masonry {
-		column-count: 4;
-	}
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.masonry {
 		column-count: 3;
 	}
